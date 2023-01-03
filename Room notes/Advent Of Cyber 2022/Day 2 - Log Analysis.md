@@ -102,9 +102,8 @@ Log files can quickly contain many events and hundreds, if not thousands, of ent
  | Advantage | Disadvantage | 
  | --- | --- |
  | SIEM platforms are dedicated services for log analysis. | Commercial SIEM platforms are expensive to license and run. |
- 
-SIEM platforms can collect a wide variety of logs - from devices to networking equipment.	SIEM platforms take considerable time to properly set up and configure.
-SIEM platforms allow for advanced, in-depth analysis of many log files at once.	SIEM platforms require training to be properly used.
+ | SIEM platforms can collect a wide variety of logs - from devices to networking equipment. | SIEM platforms take considerable time to properly set up and configure.
+ | SIEM platforms allow for advanced, in-depth analysis of many log files at once. | SIEM platforms require training to be properly used. | 
 
 Luckily for us, most operating systems already come with a set of tools that allow us to search through log files. In this room, we will be using the grep command on Linux.
 
