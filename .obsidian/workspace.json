@@ -30,9 +30,43 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ee02c36f4420a52b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room notes/Advent Of Cyber 2022/Day 8 - Smart Contracts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3190d5c776d522d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Room notes/Advent Of Cyber 2022/Day 9 - Pivoting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d2779ceee8ff5ff9",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20230104145700.png"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Room notes/Advent Of Cyber 2022/Day 6 - Email Analysis.md",
+                "file": "Room notes/Advent Of Cyber 2022/Day 9 - Pivoting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Room notes/Advent Of Cyber 2022/Day 6 - Email Analysis.md",
+                "file": "Room notes/Advent Of Cyber 2022/Day 9 - Pivoting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Room notes/Advent Of Cyber 2022/Day 6 - Email Analysis.md"
+                "file": "Room notes/Advent Of Cyber 2022/Day 9 - Pivoting.md"
               }
             }
           }
@@ -159,10 +193,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73784d8a3d50aaa1",
+  "active": "3190d5c776d522d9",
   "lastOpenFiles": [
-    "README.md",
+    "Room notes/Advent Of Cyber 2022/Day 8 - Smart Contracts.md",
+    "reentrancy atk 2.png",
+    "Room notes/Advent Of Cyber 2022/Day 7 - CyberChef.md",
+    "Pasted image 20230104145700.png",
     "Room notes/Advent Of Cyber 2022/Day 6 - Email Analysis.md",
+    "README.md",
     "Room notes/Advent Of Cyber 2022/Day 5 - Brute Forcing.md",
     "Room notes/Advent Of Cyber 2022/Day 1 - Frameworks.md",
     "Room notes/Advent Of Cyber 2022/Day 2 - Log Analysis.md"
