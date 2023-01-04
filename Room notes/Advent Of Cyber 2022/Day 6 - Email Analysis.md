@@ -36,3 +36,5 @@ Analysing multiple header fields can be confusing at first glance, but starting 
 |Do the attachments consist of or contain malware?| Suspicious attachments are a red flag. File hashes marked as suspicious/malicious by sandboxes are a red flag.
 
 Text editors are helpful in analysis, but there are some tools that can help you to view the email details in a clearer format. In this task, we will use the **"emlAnalyzer"** tool to view the body of the email and analyse the attachments. The emlAnalyzer is a tool designed to parse email headers for a better view and analysis process. The tool is ready to use in the given VM. The tool can show the headers, body, embedded URLs, plaintext and HTML data, and attachments. The sample usage query is explained below.
+
+![[Pasted image 20230104145700.png]]
