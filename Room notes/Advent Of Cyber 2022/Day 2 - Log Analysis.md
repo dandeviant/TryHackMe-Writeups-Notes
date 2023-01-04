@@ -11,26 +11,27 @@ Log files are files that contain historical records of events and other data fro
 
 By making a historical record of events that have happened, log files are extremely important pieces of evidence when investigating:
 
-    What has happened?
-    When has it happened?
-    Where has it happened?
-    Who did it? Were they successful?
-    What is the result of this action?
+> What has happened?
+> When has it happened?
+> Where has it happened?
+> Who did it? Were they successful?
+> What is the result of this action?
 
 For example, a systems administrator may want to log the traffic happening on a network. We can use logging to answer the questions above in a given scenario:
 
-A user has reportedly accessed inappropriate material on a University network. With logging in place, a systems administrator could determine the following:
-Question	Answer
-What has happened?
-	A user is confirmed to have accessed inappropriate material on the University network.
-When has it happened?
-	It happened at 12:08 on Tuesday, 01/10/2022.
-Where has it happened?
-	It happened from a device with an IP address (an identifier on the network) of 10.3.24.51.
-Who did it? Were they successful?
-	The user was logged into the university network with their student account.
-What is the result of the action?
-	The user was able to access inappropriatecontent.thm.
+> A user has reportedly accessed inappropriate material on a University network. With logging in place, a systems administrator could determine the following:
+	| Question | Answer |
+	| --- | --- |
+	What has happened?
+		A user is confirmed to have accessed inappropriate material on the University network.
+	When has it happened?
+		It happened at 12:08 on Tuesday, 01/10/2022.
+	Where has it happened?
+		It happened from a device with an IP address (an identifier on the network) of 10.3.24.51.
+	Who did it? Were they successful?
+		The user was logged into the university network with their student account.
+	What is the result of the action?
+		The user was able to access inappropriatecontent.thm.
 
 
 What Does a Log File Look Like?a blue-team elf holding a magnifying glass
@@ -63,7 +64,7 @@ Linux (Ubuntu/Debian)
 ﻿On this flavour of Linux, operating system log files (and often software-specific such as apache2) are located within the /var/log directory. We can use the ls in the /var/log directory to list all the log files located on the system:
 Listing log files within the /var/log directory
 
-           
+```
 cmnatic@aoc2022-day-2:/var/log$ ls -lah
 total 724K
 drwxrwxr-x   9 root      syslog          4.0K Nov 14 10:59 .
@@ -86,12 +87,14 @@ drwx------   2 root      root            4.0K Nov 14 10:55 private
 -rw-r-----   1 syslog    adm             207K Nov 14 11:03 syslog
 drwxr-x---   2 root      adm             4.0K Nov 14 10:55 unattended-upgrades
 -rw-rw-r--   1 root      utmp            8.3K Nov 14 11:03 wtmp
-
+```
         
 
 The following table highlights some important log files:
-Category	Description	File (Ubuntu)	Example
-Authentication	This log file contains all authentication (log in). This is usually attempted either remotely or on the system itself (i.e., accessing another user after logging in).	auth.log	Failed password for root from 192.168.1.35 port 22 ssh2.
+
+| Category | Description | File (Ubuntu) | Example |
+| --- | --- | --- | --- |
+| Authentication	This log file contains all authentication (log in). This is usually attempted either remotely or on the system itself (i.e., accessing another user after logging in).	auth.log	Failed password for root from 192.168.1.35 port 22 ssh2.
 Package Management	This log file contains all events related to package management on the system. When installing a new software (a package), this is logged in this file. This is useful for debugging or reverting changes in case this installation causes unintended behaviour on the system.	dpkg.log	2022-06-03 21:45:59 installed neofetch.
 Syslog	This log file contains all events related to things happening in the system's background. For example, crontabs executing, services starting and stopping, or other automatic behaviours such as log rotation. This file can help debug problems.	syslog	2022-06-03 13:33:7 Finished Daily apt download activities..
 Kernel	This log file contains all events related to kernel events on the system. For example, changes to the kernel, or output from devices such as networking equipment or physical devices such as USB devices. 	kern.log	2022-06-03 10:10:01 Firewalling registered
